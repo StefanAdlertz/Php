@@ -1,9 +1,8 @@
 Product: Web Shop Admin
 
-Demo:
-
+ShopDemo:
 https://adlertz.se/shop/
-
+AdminDemo:
 https://adlertz.se/shop/admin.php
 
 Purpose: 
