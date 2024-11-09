@@ -1,5 +1,7 @@
 Product: Web Shop Admin
-Demo: https://adlertz.se/shop/admin.php
+Demo (Passwordless):
+https://adlertz.se/shop/
+https://adlertz.se/shop/admin.php
 
 Purpose: 
 This application is designed for educational purposes, specifically to aid in completing a W3 Schools course on PHP and MySQL. 
