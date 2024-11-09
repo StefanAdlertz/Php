@@ -1,5 +1,5 @@
 Product: Web Shop Admin
-Demo (Passwordless):
+Demo:
 https://adlertz.se/shop/
 https://adlertz.se/shop/admin.php
 
