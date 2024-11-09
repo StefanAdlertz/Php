@@ -1,7 +1,7 @@
 Product: Web Shop Admin
 
 ShopDemo:
-https://adlertz.se/shop/
+https://adlertz.se/shop/index.php
 
 AdminDemo:
 https://adlertz.se/shop/admin.php
