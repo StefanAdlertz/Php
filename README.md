@@ -1,10 +1,7 @@
 Product: Web Shop Admin
 
-ShopDemo:
-https://adlertz.se/shop/index.php
-
-AdminDemo:
-https://adlertz.se/shop/admin.php
+ShopDemo: https://adlertz.se/shop/index.php
+AdminDemo: https://adlertz.se/shop/admin.php
 
 Purpose: 
 This application is designed for educational purposes, specifically to aid in completing a W3 Schools course on PHP and MySQL. 
