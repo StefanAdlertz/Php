@@ -1,0 +1,17 @@
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 14pt;
+}
+.navbar {
+  border-bottom: 0.5px solid darkgray;
+  border-left: 0.5px solid darkgray;
+  border-right: 0.5px solid darkgray;
+  box-shadow: 0 2px 5px rgba(87, 87, 87, 0.2);
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+.btn {
+  box-shadow: 0 2px 5px rgba(87, 87, 87, 0.2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

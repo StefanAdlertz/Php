@@ -1,0 +1,205 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14pt;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #4d4d4d;
+}
+
+.shopcontainer {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  align-items: flex-start; /* Align rows to the left */
+  min-width: 95%; /* Limit the width of the container */
+  max-width: 1200px; /* Limit the width of the container */
+  height: auto; /* Adjust height to content */
+  padding: 20px; /* Add some padding around the container */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center; /* Center items in the row */
+  margin: 0 -10px; /* Negative margin to counteract padding */
+}
+
+.book-frame {
+  border: 0.5px solid #e4d2a0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  max-width: 300px;
+}
+
+.book-frame:hover {
+  transform: translateY(-5px); /* Move image up by 5px on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.book-card {
+  position: relative;
+  width: 100%; /* Full width of the column */
+  max-width: 300px; /* Limit the width of each card */
+  margin: 0; /* Remove margin to avoid extra space */
+}
+
+.card-body {
+  padding: 10px;
+  margin: 0px;
+  min-height: 100px;
+}
+
+.card-title {
+  max-width: 100%;
+  min-height: 70px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-price {
+  max-width: 100%;
+  min-height: 50px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: flex-end; /* Align items to the bottom */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.product-description {
+  opacity: 0;
+  display: none;
+  position: relative;
+  top: 100%;
+  left: 0;
+  max-width: 95%;
+  background-color: #fff;
+  padding: 10px;
+  transition: opacity 1s ease;
+}
+
+.book-card:hover .product-description {
+  opacity: 1;
+  display: block;
+}
+
+.card-img-top {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* End of Books */
+
+.container {
+  display: flex;
+  height: 100vh; /*Gör att containern fyller hela höjden */
+}
+
+.content {
+  display: flex;
+  min-width: 85%; /* Default width */
+  padding: 0px;
+  color: #333;
+}
+
+.links {
+  width: 13%;
+  border-right: 0.5px solid #e4d2a0;
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-left: 10px;
+  box-shadow: 2px 0 5px rgba(82, 81, 81, 0.1);
+  overflow: hidden; /* Gör att länkarna kan scrollas om de är för många */
+  height: 100vh;
+}
+
+.linksright {
+  width: 1%;
+  border-left: 0.5px solid #e4d2a0;
+  background-color: #ffffff;
+  box-shadow: -2px 0 5px rgba(82, 81, 81, 0.1);
+  overflow: hidden; /* Gör att länkarna kan scrollas om de är för många */
+  height: 100vh;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .links {
+    width: 25%; /* Increase width on smaller screens */
+    padding-left: 15px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .links {
+    width: 100%; /* Full width on very small screens */
+    padding-top: 20px; /* Reduce top padding */
+    padding-left: 10px; /* Adjust left padding */
+  }
+}
+
+/* Adjust content width in smaller screens */
+@media (max-width: 768px) {
+  .content {
+    width: 75%; /* Adjust content width */
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 100%; /* Full width on very small screens */
+  }
+}
+
+h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Nytt tillägg för att säkerställa att länkarna inte överlappar */
+ul {
+  list-style-type: none; /* Tar bort punktlistan */
+  padding: 0; /* Tar bort padding */
+}
+
+li {
+  margin-bottom: 10px; /* Lägger till lite avstånd mellan länkarna */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgba(82, 81, 81, 0.1);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+}
